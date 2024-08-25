@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Space Mono", monospace;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+/* HEADER SECTION */
+header {
+    margin-bottom: 100px;
+}
+
+header h3 {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 20px;
+}
+
+header h3>div {
+    letter-spacing: -04px;
+}
+
+/* END OF HEADER SECTION */
+
+/* BANNER SECTION */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 250px;
+}
+
+.banner-img,
+.banner-content {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-text {
+    color: #333333;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 95px;
+}
+
+.banner-description {
+    width: 350px;
+    line-height: 30px;
+    margin: 25px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+.banner-btn button {
+    padding:  25px;
+    border-style: none;
+    background-color: rgb(58, 56, 56) ;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+button{
+    word-spacing: 05px;
+}
+/* END OF BANNER SECTION */
+
+/* FOOTER SECTION */
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #BDBDBD;
+}
