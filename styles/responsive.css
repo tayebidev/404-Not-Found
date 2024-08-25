@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0 15px;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-img,
+    .banner-content {
+        width: 100%;
+    }
+    .banner-text{
+        font-size: 32px;
+        line-height: 70px;
+    }
+    .banner-btn{
+        margin-top: 70px ;
+    }
+}
